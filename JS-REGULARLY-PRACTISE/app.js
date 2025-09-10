@@ -387,6 +387,74 @@
 // }
 
 
+// let multiarr = [
+//     [0, 1, 2, 3],
+//     [1, 0, 1, 2],
+//     [2, 1, 0, 1]
+// ]
+// console.log(multiarr)
+
+// for (let i = 1; i <= 100; i++) {
+//     console.log(i)
+// }
 
 
 
+// let tableNum = Number(prompt("ENTER A NUMBER TO SHOW ITS MULTIPLICATION TABLE"));
+// let tableLength = Number(prompt("ENTER LENGTH OF MULTIPLICATION TABLE"));
+
+// for (let i = 1; i <= tableLength; i++) {
+//     let result = tableNum * i;
+//     console.log(tableNum + " x " + i + " = " + result);
+// }
+
+
+// let fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// for (let i = 0; i < fruits.length; i++) {
+//     console.log(fruits[i]);
+// }
+
+
+// let foods = ["cake", "apple pie", "cookie", "chips", "patties"];
+// let userOrder = prompt("WELCOME TO ABC BAKERY. WHAT DO YOU WANT TO ORDER SIR/MA'AM?").toLowerCase();
+
+// let found = false;
+// for (let i = 0; i < foods.length; i++) {
+//     if (foods[i].toLowerCase() === userOrder) {
+//         alert(userOrder + " is available at index " + i + " in our bakery");
+//     }else if (!found) {
+//         alert("We are sorry. " + userOrder + " is not available in our bakery");
+//         found = true;
+//     }
+// }
+
+
+// let arr = [24, 53, 78, 91, 12];
+// let largest = arr[0];
+// for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] > largest) {
+//         largest = arr[i];
+//     }
+
+// }
+// alert("The largest number is " + largest);
+
+
+
+// let arr = [24, 53, 78, 91, 12];
+// let smallest = arr[0];
+// for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] < smallest) {
+//         smallest = arr[i];
+//     }
+// }
+// alert("The smallest number is " + smallest);
+
+
+
+
+// let multiples = [];
+// for (let i = 1; i <= 100; i++) {
+//     multiples.push(i * 5);
+// }
+// console.log(multiples);
