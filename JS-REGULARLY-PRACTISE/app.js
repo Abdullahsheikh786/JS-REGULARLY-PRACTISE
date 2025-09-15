@@ -38,6 +38,7 @@
 
 
 // let x = 5;
+
 // let y = "5";
 // console.log(x == y);
 
@@ -416,7 +417,7 @@
 
 
 // let foods = ["cake", "apple pie", "cookie", "chips", "patties"];
-// let userOrder = prompt("WELCOME TO ABC BAKERY. WHAT DO YOU WANT TO ORDER SIR/MA'AM?").toLowerCase();
+// let userOrder = prompt("WELCOME TO BAKERY. WHAT DO YOU WANT TO ORDER SIR/MA'AM?").toLowerCase();
 
 // let found = false;
 // for (let i = 0; i < foods.length; i++) {
@@ -457,4 +458,123 @@
 // for (let i = 1; i <= 100; i++) {
 //     multiples.push(i * 5);
 // }
-// console.log(multiples);
+// console.log(multiples);  
+
+
+
+// let fname = prompt("ENTER YOUR FIRST NAME");
+// let lname = prompt("ENTER YOUR LAST NAME");
+
+// let fullname = fname + " " + lname;
+// alert("WELCOME " + fullname);
+
+
+
+
+// let phone = prompt("ENTER YOUR FAVORITE PHONE MODEL");
+
+// let length = phone.length;
+
+// document.getElementById("result").innerHTML =
+// "My favorite phone is: " + phone + "<br>Length of string: " + length;
+
+
+
+
+// let country = "pakistan"
+// console.log(country.indexOf("n"))
+
+
+
+
+
+
+// var word = "Pakistani";
+// var charAt3 = word.charAt(3); 
+// var resultElement = document.getElementById("result");
+// if (resultElement) {
+//     resultElement.innerText = "Character at 3rd index in 'Pakistani' is: " + charAt3;
+// } else {
+//     console.log("Character at 3rd index in 'Pakistani' is: " + charAt3);
+// }
+
+
+// let str = "Hyderabad";
+// let newStr = str.replace("Hyder", "Islam");
+// console.log(newStr);
+
+
+
+
+// let message = "Ali and Sami are best friends. They play cricket and football together.";
+// let newMessage = message.replace(/and/g, "&");
+// console.log(newMessage);
+
+
+
+// let str = "472";
+// let num = Number(str);  
+// console.log("value : " + str);
+
+
+
+
+// let input = prompt("ENTER A NAME");
+// let upperCase = input.toUpperCase();
+// // console.log("User input: " + input);
+// console.log("Upper case: " + upperCase);
+
+
+// let input = prompt("ENTER A NAME");
+// let titleCase = input.charAt(0).toUpperCase() + input.slice(1).toLowerCase();
+// console.log("Title case: " + titleCase);
+
+
+
+// let num = 35.36;
+// let str = num.toString().replace(".", "");
+// console.log(str);
+
+
+
+
+// let username = prompt("ENTER A USERNAME");
+
+// for (let i = 0; i < username.length; i++) {
+//     let char = username.charAt(i);
+//     if (char === "!" || char === "," || char === "." || char === "@") {
+//         alert("PLEASE ENTER A VALID USERNAME");
+//         break;
+//     }
+// }
+
+
+
+// let foods = ["cake", "apple pie", "cookie", "chips", "patties"];
+// let userOrder = prompt("WELCOME TO BAKERY. WHAT DO YOU WANT TO ORDER SIR/MA'AM?").toLowerCase();
+
+// let found = false;
+// for (let i = 0; i < foods.length; i++) {
+//     if (foods[i].toLowerCase() === userOrder) {
+//         alert(userOrder + " is available at index " + i + " in our bakery");
+//     } 
+//     else {
+//         if (foods[i].toLowerCase() !== userOrder && !found) {
+//             alert("We are sorry. " + userOrder + " is not available in our bakery");
+//             found = true;
+//         }
+//     }
+// }
+
+
+
+// let userInput = prompt("ENTER A NAME ");
+// let lastChar = userInput.charAt(userInput.length - 1);
+
+// console.log("LAST CHARACTER OF INPUT IS: " + lastChar);
+
+
+
+
+
+
